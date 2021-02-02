@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { DemoMaterialModule } from './material-module';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    DemoMaterialModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DemoMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
